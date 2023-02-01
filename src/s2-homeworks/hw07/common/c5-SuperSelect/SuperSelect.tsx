@@ -36,8 +36,8 @@ const SuperSelect: React.FC<SuperSelectPropsType> = ({
     const onChangeCallback = (e: ChangeEvent<HTMLSelectElement>) => {
         // делают студенты
         // если onChangeOption вообще существует, то...
-      //  console.log(e.currentTarget.value)
-        onChangeOption?.(e.currentTarget.value)
+        //  console.log(e.currentTarget.value)
+        onChangeOption?.(+e.currentTarget.value)
 
     }
 
