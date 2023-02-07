@@ -3,27 +3,30 @@
     padding: 10px;
     margin-right: 20px;
     line-height: 18px;
-    appearance: none;
-    border-radius: 50%;
-    border: 3px solid black;
-}
-
-.radio::before {
-    content: "";
-    display: inline-block;
-    width: 13px;
-    height: 13px;
-    position: absolute;
-    left: 4px;
-    bottom: 4px;
-    border-radius: 50%;
-    background-color: white;
-}
+    /*appearance: none;*/
+    /*border-radius: 50%;*/
+    /*border: 3px solid black;*/
+    accent-color: black;
 
 
-.radio:checked::before {
-    background-color: black;
 }
+
+/*.radio::before {*/
+/*    content: "";*/
+/*    display: inline-block;*/
+/*    width: 13px;*/
+/*    height: 13px;*/
+/*    position: absolute;*/
+/*    left: 4px;*/
+/*    bottom: 4px;*/
+/*    border-radius: 50%;*/
+/*    background-color: white;*/
+/*}*/
+
+
+/*.radio:checked::before {*/
+/*    background-color: black;*/
+/*}*/
 
 .label {
     cursor: pointer;

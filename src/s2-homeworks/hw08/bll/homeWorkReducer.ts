@@ -8,11 +8,13 @@ export const homeWorkReducer = (state: any, action: any): any => { // need to fi
     switch (action.type) {
         case 'sort': { // by name
             // sort() создаёт новый массив? или нужно в ручную?...
-            return state // need to fix
+            return action.payload === "up"
+                ? [...state].sort((a, b) => a.name.toLowerCase() > b.name.toLowerCase() ? 1 : -1)
+                : [...state].sort((a, b) => a.name.toLowerCase() < b.name.toLowerCase() ? 1 : -1)
         }
         case 'check': {
             // filter() создаёт новый массив? или нужно в ручную?...
-            return state // need to fix
+            return [...state].filter(user => user.age >= action.payload)
         }
         default:
             return state
