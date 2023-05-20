@@ -7,11 +7,17 @@
     border: 1px solid #C2C2C2;
     width: 165px;
     padding: 2px 0 5px 10px;
+    background-color: inherit;
+    color: inherit;
 }
 
 .select:focus {
+    background-color: inherit;
+    color: inherit;
 }
 
 
 .option:hover {
+    background-color: inherit;
+    color: inherit;
 }

@@ -17,6 +17,7 @@ function HW11() {
 
     const handleChange = (event: Event, value: number | number[]) => {
         // пишет студент // если пришёл массив - сохранить значения в оба useState, иначе в первый
+        console.log(value)
         if (!Array.isArray(value)) {
             setValue1(Number(value))
         } else {
