@@ -12,12 +12,12 @@
 }
 
 .select:focus {
-    background-color: inherit;
+    background: inherit;
     color: inherit;
 }
 
 
 .option:hover {
-    background-color: inherit;
+    background: inherit;
     color: inherit;
 }
