@@ -38,6 +38,7 @@ const HW13 = () => {
             .post(url, {success: x})
 
             .then((res) => {
+              
                 setCode('Код 200!')
                 setImage(success200)
                 setInfo(res.data.info)
