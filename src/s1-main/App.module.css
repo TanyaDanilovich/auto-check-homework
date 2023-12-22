@@ -1,19 +1,18 @@
-.App {
-    --header_height: 60px;
-
+.App{
+    --header_height:60px;
 }
 
-.hw {
-    padding: 20px;
-    border-bottom: 1px solid #D9D9D9;
+.hw{
+    padding:20px;
+    border-bottom:1px solid #D9D9D9;
 }
 
-.hwTitle {
-    padding: 20px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    border-bottom: 1px solid #D9D9D9;
+.hwTitle{
+    padding:20px;
+    font-family:'Roboto', sans-serif;
+    font-style:normal;
+    font-weight:600;
+    font-size:22px;
+    line-height:27px;
+    border-bottom:1px solid #D9D9D9;
 }
